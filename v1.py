@@ -1,11 +1,11 @@
-!pip -q install gradio pandas
+# !pip -q install gradio pandas  <-- 이 줄을 삭제하거나 주석 처리하세요.
 
 # Google Colab용 하나모아 모의투자 게임 코드
-
 import base64, zlib, json, math
 import pandas as pd
 import gradio as gr
 
+# ... 이하 동일 ...
 SCENARIO_DATA = [
   {
     "stage": 1,
